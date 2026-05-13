@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { 
   FiHash, FiZap, FiTriangle, FiRepeat, 
-  FiPercent, FiBarChart2, FiGrid 
+  FiPercent, FiBarChart2, FiGrid, FiUsers 
 } from 'react-icons/fi';
 
 const features = [
@@ -60,6 +60,14 @@ const features = [
     desc: 'Hitung persentase, diskon, kenaikan, dan perbandingan.',
     color: 'rgba(192, 132, 252, 0.15)',
     iconColor: '#c084fc'
+  },
+  {
+    path: '/p3ap2kb',
+    icon: <FiUsers />,
+    title: 'P3AP2KB',
+    desc: 'TFR, ASFR, mCPR, CPR, unmet need, dan indikator KB lainnya.',
+    color: 'rgba(80, 250, 123, 0.12)',
+    iconColor: '#50fa7b'
   },
 ];
 

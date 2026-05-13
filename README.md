@@ -13,6 +13,7 @@ Aplikasi kalkulator berbasis web yang dibuat dengan React dan Vite. Project ini 
 - Kalkulator statistik untuk mean, median, modus, standar deviasi, varians, range, nilai minimum, dan nilai maksimum.
 - Kalkulator geometri untuk luas, keliling, volume, dan luas permukaan beberapa bangun.
 - Kalkulator persentase untuk persen dari nilai, kenaikan, penurunan, dan rasio.
+- Kalkulator Dinas P3AP2KB untuk TFR, ASFR, mCPR, CPR, unmet need, dan MKJP.
 
 ## Teknologi
 
@@ -116,6 +117,7 @@ kalkulator/
 | `/statistik` | Kalkulator Statistik |
 | `/geometri` | Kalkulator Geometri |
 | `/persentase` | Kalkulator Persentase |
+| `/p3ap2kb` | Kalkulator Dinas P3AP2KB |
 
 ## Catatan Pengembangan
 

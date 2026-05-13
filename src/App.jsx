@@ -8,6 +8,7 @@ import ConversionCalc from './pages/ConversionCalc';
 import StatisticsCalc from './pages/StatisticsCalc';
 import GeometryCalc from './pages/GeometryCalc';
 import PercentageCalc from './pages/PercentageCalc';
+import P3ap2kbCalc from './pages/P3ap2kbCalc';
 import './styles/global.css';
 
 const router = createBrowserRouter([
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
       { path: 'statistik', element: <StatisticsCalc /> },
       { path: 'geometri', element: <GeometryCalc /> },
       { path: 'persentase', element: <PercentageCalc /> },
+      { path: 'p3ap2kb', element: <P3ap2kbCalc /> },
     ],
   },
 ]);

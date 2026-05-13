@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { 
   FiHome, FiHash, FiZap, FiTriangle, FiRepeat, 
-  FiPercent, FiBarChart2, FiGrid
+  FiPercent, FiBarChart2, FiGrid, FiUsers
 } from 'react-icons/fi';
 
 const navItems = [
@@ -26,6 +26,7 @@ const navItems = [
       { path: '/statistik', label: 'Statistik', icon: <FiBarChart2 /> },
       { path: '/geometri', label: 'Geometri', icon: <FiGrid /> },
       { path: '/persentase', label: 'Persentase', icon: <FiPercent /> },
+      { path: '/p3ap2kb', label: 'P3AP2KB', icon: <FiUsers /> },
     ]
   }
 ];
